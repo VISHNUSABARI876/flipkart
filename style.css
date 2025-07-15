@@ -1,0 +1,117 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+nav{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  margin-left: 5px;
+}
+li,ul,h1{
+  display: inline-block;
+}
+ul{
+  margin-left: 66%;
+  flex-direction: row;
+  font-size: 16px;
+  float: none;
+}
+li:hover{
+  color: grey;
+  cursor: pointer;
+}
+.Searchbar{
+  text-align: center;
+  padding-top: 40px;
+}
+input{
+  width: 60%;
+  height: 20px;
+}
+
+.Product{
+  display: flex;
+  padding-top: 40px;
+  text-align: center;
+}
+.box{
+  border-color: black;
+  border-style: solid;
+  border-width: 5px;
+}
+.box1{
+  border-color: black;
+  border-style: solid;
+  border-width: 5px;
+}
+.box2{
+  border-color: black;
+  border-style: solid;
+  border-width: 5px;
+}
+.box:hover{
+   background-color: black;
+   color: white;
+}
+.box1:hover{
+  background-color: black;
+  color: white;
+}
+.box2:hover{
+  background-color: black;
+  color: white;
+}
+@media (max-width: 985x)
+{
+   .Product{
+     flex-basis: 100%;
+     flex-direction: column;
+   }
+   ul{ 
+      margin-left: 40%;
+      font-size: 12px;
+      flex-direction: row;
+      float: left;
+   }  
+}
+@media (max-width: 658px)
+{
+   .Product{
+     flex-basis: 100%;
+     flex-direction: column;
+   }
+   ul{ 
+      margin-left: 27%;
+      font-size: 12px;
+      flex-direction: row;
+
+   }  
+}
+@media (max-width: 376px)
+{
+   .Product{
+     flex-basis: 100%;
+     flex-direction: column;
+   }
+   ul{ 
+      margin-left: 15%;
+      font-size: 12px;
+      flex-direction: row;
+
+   }  
+}
+.images{
+  margin-top: 20px;
+  text-align: center;
+}
+.aboutus{
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+  color: white
+}
+.contact{
+  text-align: center;
+}

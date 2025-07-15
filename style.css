@@ -63,7 +63,7 @@ input{
   background-color: black;
   color: white;
 }
-@media (max-width: 376px)
+@media (max-width: 412px)
 {
    .Product{
      flex-basis: 100%;

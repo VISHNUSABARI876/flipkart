@@ -5,8 +5,9 @@
 nav{
   background-color: black;
   color: white;
-  padding: 5px;
-  margin-left: 5px;
+}
+h1{
+  margin-left: 10px;
 }
 li,ul,h1{
   display: inline-block;
@@ -61,32 +62,6 @@ input{
 .box2:hover{
   background-color: black;
   color: white;
-}
-@media (max-width: 985x)
-{
-   .Product{
-     flex-basis: 100%;
-     flex-direction: column;
-   }
-   ul{ 
-      margin-left: 40%;
-      font-size: 12px;
-      flex-direction: row;
-      float: left;
-   }  
-}
-@media (max-width: 658px)
-{
-   .Product{
-     flex-basis: 100%;
-     flex-direction: column;
-   }
-   ul{ 
-      margin-left: 27%;
-      font-size: 12px;
-      flex-direction: row;
-
-   }  
 }
 @media (max-width: 376px)
 {

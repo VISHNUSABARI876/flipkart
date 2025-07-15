@@ -10,8 +10,7 @@ h1{
   margin-left: 10px;
 }
 li,ul,h1{
-  display: inline-block;
-  vertical-align: top;
+  display: inline;
 }
 ul{
   margin-left: 66%;
